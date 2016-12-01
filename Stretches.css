@@ -1,0 +1,184 @@
+/*
+.container1{
+    float: left
+}
+*/
+div.staticText{
+    float: right;
+    position: absolute;
+    left: 670px;
+    bottom: 70px;
+}
+div.graphData{
+    float: right;
+    position: absolute;
+    left: 800px;
+    bottom: -500px;
+}
+div.dystText{
+    float: right;
+    position: absolute;
+    left: 750px;
+    bottom: 0px;
+    
+}
+
+div.dystText2{
+    float: right;
+    position: absolute;
+    left: 685px;
+    bottom: -200px;
+    
+}
+
+div.dynamicText{
+    
+    float: right;
+    position: absolute;
+    right: 124px;
+    bottom: 88px;
+}
+.centertop{
+    float: right;
+    position:relative;
+    right:225px;
+    font-size: 64px;
+    font-family: "Courier New", Courier, monospace;
+}
+.right{
+    float: right;
+    position: relative;
+    left: 600px;
+    bottom: -139px;
+
+}
+.rightunder{
+    float:right;
+    position:relative;
+    bottom: -50px;
+}
+h2 {
+    text-decoration: underline;
+    font-size: 24px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+.button4 {
+    float: right;
+    position: relative;
+    left: 555px;
+    top: 850px;
+  background: #0639b0;
+  background-image: -webkit-linear-gradient(top, #0639b0, #0062ff);
+  background-image: -moz-linear-gradient(top, #0639b0, #0062ff);
+  background-image: -ms-linear-gradient(top, #0639b0, #0062ff);
+  background-image: -o-linear-gradient(top, #0639b0, #0062ff);
+  background-image: linear-gradient(to bottom, #0639b0, #0062ff);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 0px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.button3 {
+    float: right;
+    position: relative;
+    left: 995px;
+    top: 202px;
+  background: #012740;
+  background-image: -webkit-linear-gradient(top, #012740, #d42424);
+  background-image: -moz-linear-gradient(top, #012740, #d42424);
+  background-image: -ms-linear-gradient(top, #012740, #d42424);
+  background-image: -o-linear-gradient(top, #012740, #d42424);
+  background-image: linear-gradient(to bottom, #012740, #d42424);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.button2 {
+    float: right;
+    position: relative;
+    left: 650px;
+    top: 230px;
+  background: #012740;
+  background-image: -webkit-linear-gradient(top, #012740, #d42424);
+  background-image: -moz-linear-gradient(top, #012740, #d42424);
+  background-image: -ms-linear-gradient(top, #012740, #d42424);
+  background-image: -o-linear-gradient(top, #012740, #d42424);
+  background-image: linear-gradient(to bottom, #012740, #d42424);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+
+.button1{
+    float:right;
+    position:relative;
+    bottom: -130px;
+    left: 176px;
+    background: #012740;
+  background-image: -webkit-linear-gradient(top, #012740, #d42424);
+  background-image: -moz-linear-gradient(top, #012740, #d42424);
+  background-image: -ms-linear-gradient(top, #012740, #d42424);
+  background-image: -o-linear-gradient(top, #012740, #d42424);
+  background-image: linear-gradient(to bottom, #012740, #d42424);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 5px 10px 5px 10px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text{
+    font: Times;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header{
+    font-size: 30px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+} 
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 200px;					
+    height: auto;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: goldenrod;	
+    border: 4px;		
+    border-radius: 8px;			
+    pointer-events: none;	
+}
